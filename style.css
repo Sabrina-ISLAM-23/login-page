@@ -1,0 +1,47 @@
+/* Ensure the body takes up full height and no margin */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+}
+
+/* Style for the container to center it */
+.container {
+    width: 60%;  /* Set a specific width */
+    margin: 0 auto; /* Centers horizontally */
+    padding: 20px; /* Adds some padding inside the container */
+    box-sizing: border-box; /* Includes padding in the width */
+}
+
+/* Optional: You can center vertically too */
+body {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Takes full viewport height */
+    flex-direction: column; /* Ensures content is stacked */
+}
+
+/* Additional styles */
+.header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images img {
+    margin: 5px;
+    width: 40 px; /* Adjust the size of images as per your need */
+    height: 40px;
+}
